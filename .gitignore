@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+output/
+tmp/
+
+# Local data and generated analysis artifacts — retained on the computer,
+# deliberately excluded from GitHub by default.
+*.vkx
+*.zip
+*.pdf
+*.pptx
+*.inspect.ndjson
+
+# Local Streamlit credentials, if ever added.
+.streamlit/secrets.toml
