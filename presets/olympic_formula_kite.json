@@ -1,1 +1,35 @@
-
+{
+  "id": "olympic_formula_kite",
+  "name": "Olympic Formula Kite",
+  "board_or_hull_length_m": 1.5,
+  "smoothing_seconds": 1.4,
+  "sog_smoothing_seconds": 3.0,
+  "stable_speed_kn": 12.0,
+  "tack": {
+    "before_crossing_s": 4.0,
+    "after_crossing_s": 8.0,
+    "reference_before_s": 10.0,
+    "reference_after_s": 10.0,
+    "best_reference_s": 8.0,
+    "angle_threshold_deg": 45.0,
+    "target_threshold_deg": 30.0,
+    "min_separation_s": 12.0
+  },
+  "gybe": {
+    "before_crossing_s": 4.0,
+    "after_crossing_s": 8.0,
+    "reference_before_s": 10.0,
+    "reference_after_s": 10.0,
+    "best_reference_s": 8.0,
+    "angle_threshold_deg": 20.0,
+    "target_threshold_deg": 25.0,
+    "min_separation_s": 12.0
+  },
+  "qualification": {
+    "threshold": 0.8,
+    "ceiling_percentile": 0.95,
+    "entry_window_s": 10.0,
+    "rolling_seconds": 3.0,
+    "mode": "either"
+  }
+}
